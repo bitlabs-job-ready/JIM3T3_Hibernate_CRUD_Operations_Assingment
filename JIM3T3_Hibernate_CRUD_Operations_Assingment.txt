@@ -1,0 +1,27 @@
+1.Create a simple Java application using Hibernate that connects to a database and performs basic CRUD (create, read, update, delete) operations.
+   a.First, you will need to set up your Java project and add the Hibernate dependencies to your classpath. If you are using Maven, you can add the following dependency to your pom.xml file:
+   b.Next, you will need to create a Hibernate configuration file (hibernate.cfg.xml) that specifies the details of your database connection, such as the JDBC driver class, the URL of the database, the username and password, etc. 
+   c.you will need to create a Java object (also known as an "entity") that represents a record in your database table. This object should have fields that correspond to the columns in the table
+   d.Next, you will need to create a Hibernate "session factory" that can be used to create Hibernate sessions. A session is used to perform persistent operations on your entities. You can create a session factory by reading in the
+
+**Note You can use one table and one hibernate configuration file for this entire assignment 
+1.create Maven project in eclipse or in any IDE(eclipse or sts).
+ -1. Create/Save data into table using Hibernate Application
+	A.PatientId
+	B.PatientName
+	c.PatientCity
+	D.PatientPhoneNumber
+        E.PatientEmail
+
+*PatientId has to be generated automatically.
+
+*"Patient" table has to be created  automatically.
+
+*create Hibernate.cfg.xml file  to maintain database connections.
+
+1.insert Patient records to the database .
+2.Display all records from "Patient" table.
+3.Update "Patient" table
+4.Delete data from database table (Patient).
+
+--------------------------------------------------------------------------------------------------
